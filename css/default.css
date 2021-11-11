@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #eee;
+    margin:  0 auto;
+    background-image: url(../pic/asset/back.png);
+    background-size: 100% ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 5000px;
+}
+.backtotop{
+    width: 50px;
+    height: 50px;
+    display: none;
+    background: #CC204A;
+    box-shadow: 0px 0px 2px 0px #CC204A;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    padding-left: 3px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    
+}
+.backtotop:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 0px;
+    border-radius: 50%;
+}
+.jumbotron{
+    background-image: url(../pic/asset/20170222174038.png);
+    height: 500px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position:center bottom;
+    background-blend-mode:multiply;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.in-jumbo{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: none;
+}
